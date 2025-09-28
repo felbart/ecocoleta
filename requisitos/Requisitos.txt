@@ -1,0 +1,25 @@
+REQUISITOS DO SISTEMA ECOCOLETA
+
+1. REQUISITOS FUNCIONAIS (RF)
+
+RF01 - Cadastrar ponto de coleta: o administrador deve poder registrar um novo ponto de coleta com nome, endereço, horário de funcionamento e tipos de materiais aceitos.
+
+RF02 - Consultar pontos de coleta: o cidadão deve poder listar os pontos de coleta disponíveis.
+
+RF03 - Filtrar pontos por tipo de resíduo: o cidadão deve poder pesquisar pontos de coleta de acordo com o material (papel, plástico, vidro, metal, eletrônicos e embalagens de remédios).
+
+RF04 - Consultar detalhes de um ponto: o cidadão deve poder visualizar informações completas de um ponto de coleta específico.
+
+RF05 - Gerar estatísticas: o sistema deve fornecer uma contagem do número de pontos cadastrados por tipo de material aceito.
+
+2. REQUISITOS NÃO FUNCIONAIS (RNF)
+
+RNF01 - Linguagem de programação: o sistema deve ser desenvolvido em Java.
+
+RNF02 - Arquitetura: o sistema deve seguir o modelo cliente-servidor, com comunicação por sockets.
+
+RNF03 - Persistência: o sistema não deve depender de banco de dados ou arquivos externos, utilizando armazenamento em memória.
+
+RNF04 - Desempenho: o sistema deve responder às requisições em tempo adequado (menos de 2 segundos para até 1.000 pontos cadastrados).
+
+RNF05 - Usabilidade técnica: o cliente deve ser simples de executar em linha de comando, permitindo interações claras (ex.: menu ou comandos).
