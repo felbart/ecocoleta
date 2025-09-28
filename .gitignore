@@ -1,0 +1,12 @@
+*.class
+
+bin/
+target/
+*.log
+
+node_modules/
+.env
+
+.vscode/
+
+.DS_Store

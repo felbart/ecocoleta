@@ -16,7 +16,7 @@ public class EcoColetaServer {
     private static List<PontoColeta> pontosColeta = new ArrayList<>();
 
     public static void main(String[] args) {
-        // Exemplo de dados iniciais para testar as consultas
+
         pontosColeta.add(new PontoColeta("Ponto A", "Rua X, 123", "08:00-18:00", Arrays.asList("papel", "plastico")));
         pontosColeta.add(new PontoColeta("Ponto B", "Avenida Y, 456", "09:00-17:00", Arrays.asList("vidro", "metal")));
         pontosColeta.add(new PontoColeta("Ponto C", "Praça Z, 789", "10:00-16:00", Arrays.asList("eletrônicos")));

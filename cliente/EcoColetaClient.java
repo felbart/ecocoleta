@@ -8,7 +8,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class EcoColetaClient {
-    private static final String SERVER_ADDRESS = "localhost"; // Use "localhost" para testar na sua própria máquina
+    private static final String SERVER_ADDRESS = "localhost"; 
     private static final int PORT = 5000;
 
     public static void main(String[] args) {
@@ -34,10 +34,10 @@ public class EcoColetaClient {
                         break;
                     case "5":
                         System.out.println("Saindo do sistema. Até a próxima!");
-                        return; // Encerra o programa
+                        return; 
                     default:
                         System.out.println("Opção inválida. Tente novamente.");
-                        continue; // Volta para o início do loop
+                        continue; 
                 }
 
                 if (!comando.isEmpty()) {
@@ -85,10 +85,10 @@ public class EcoColetaClient {
              PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
              BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()))) {
 
-            // Envia o comando para o servidor
+            
             out.println(comando);
 
-            // Recebe e exibe a resposta do servidor
+            
             System.out.println("\nResposta do Servidor:");
             String linha;
             while ((linha = in.readLine()) != null) {

@@ -17,7 +17,7 @@ public class PontoColeta implements Serializable {
         this.tiposMateriais = new ArrayList<>(tiposMateriais);
     }
 
-    // Getters
+
     public String getNome() { return nome; }
     public String getEndereco() { return endereco; }
     public String getHorario() { return horario; }
