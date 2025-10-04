@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+    --default-font-family: "IBM Plex Sans", sans-serif;
+    --color-primary-light: #9db8a7;
+    --color-primary: #557C66;
+    --color-primary-dark: #3d5e4c;
+
+    --color-secondary-light: #d1c6b7;
+    --color-secondary: #a9927b;
+    --color-secondary-dark: #7d6251;
+
+    --color-tertiary-light: #E6E2CD;
+    --color-tertiary: #d8d0b0;
+    --color-tertiary-dark: #c1b283;
+
+}
